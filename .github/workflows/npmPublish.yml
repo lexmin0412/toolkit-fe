@@ -12,9 +12,13 @@ jobs:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v1
         with:
-          node-version: 14
+          node-version: 18
           registry-url: https://registry.npmjs.org/
-      - run: npm i
+      - uses: pnpm/action-setup@v2
+        with:
+          version: 8
+          cache: pnpm
+      - run: pnpm install
       - run: cd packages/data && pnpm publish
       - run: cd packages/request && pnpm publish
         env:
