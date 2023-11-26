@@ -20,6 +20,8 @@ jobs:
           cache: pnpm
       - run: pnpm install
       - run: cd packages/data && pnpm publish
+        env:
+          NODE_AUTH_TOKEN: ${{secrets.npm_token}}
       - run: cd packages/request && pnpm publish
         env:
           NODE_AUTH_TOKEN: ${{secrets.npm_token}}
