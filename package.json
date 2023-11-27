@@ -3,7 +3,6 @@
   "version": "0.0.1",
   "description": "",
   "main": "index.js",
-  "private": true,
   "scripts": {
     "preinstall": "npx only-allow pnpm",
     "build": "pnpm --filter=@toolkit-fe/* run build",
