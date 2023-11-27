@@ -3,9 +3,11 @@
   "version": "0.0.1",
   "description": "",
   "main": "index.js",
+  "private": true,
   "scripts": {
     "preinstall": "npx only-allow pnpm",
     "build": "pnpm --filter=@toolkit-fe/* run build",
+    "ci:publish": "pnpm --filter=@toolkit-fe/* publish",
     "clear": "rimraf 'packages/*/{lib,es,node_modules}' && rimraf node_modules",
     "changeset": "changeset",
     "version-packages": "changeset version",
@@ -30,5 +32,8 @@
   "devDependencies": {
     "@changesets/cli": "^2.26.2",
     "only-allow": "^1.2.1"
-  }
+  },
+  "workspaces": [
+    "packages/*"
+  ]
 }

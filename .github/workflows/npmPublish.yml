@@ -19,6 +19,6 @@ jobs:
           version: 8
           cache: pnpm
       - run: pnpm install
-      - run: pnpm publish
+      - run: pnpm ci:publish
         env:
           NODE_AUTH_TOKEN: ${{secrets.npm_token}}
