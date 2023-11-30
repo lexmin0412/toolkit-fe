@@ -13,6 +13,9 @@
   },
   "keywords": [],
   "author": "",
+	"publishConfig": {
+		"access": "public"
+	},
   "license": "ISC",
   "devDependencies": {
     "@types/node": "^20.10.0",
