@@ -7,7 +7,7 @@
   "scripts": {
     "preinstall": "npx only-allow pnpm",
     "build": "pnpm --filter=@toolkit-fe/* run build",
-    "ci:publish": "pnpm --filter=@toolkit-fe/* publish",
+    "ci:publish": "pnpm --filter=@toolkit-fe/* publish --access public",
     "clear": "rimraf 'packages/*/{lib,es,node_modules}' && rimraf node_modules",
     "changeset": "changeset",
     "version-packages": "changeset version",
