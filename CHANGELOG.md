@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.9](https://github.com/lexmin0412/toolkit-fe/compare/v0.1.8...v0.1.9) (2023-12-12)
+
+
+### Features
+
+* **where-am-i:** add getOS ([975cb56](https://github.com/lexmin0412/toolkit-fe/commit/975cb564afb6ae19623dfce44ab0e53fde299b3c))
+
+
+
+
+
 ## [0.1.8](https://github.com/lexmin0412/toolkit-fe/compare/v0.1.7...v0.1.8) (2023-12-12)
 
 **Note:** Version bump only for package toolkit-frontend
