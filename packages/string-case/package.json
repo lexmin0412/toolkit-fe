@@ -1,6 +1,6 @@
 {
 	"name": "@toolkit-fe/string-case",
-	"version": "0.1.1",
+	"version": "0.1.2",
 	"description": "字符串 Casing 转换",
 	"main": "./lib/index.js",
 	"scripts": {
