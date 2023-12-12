@@ -12,7 +12,8 @@
     "version-packages": "changeset version",
     "lerna:init": "lerna init",
     "new:pkg": "lerna create",
-    "ci:version": "lerna version patch --ignore-changes --yes --conventional-commits --create-release github",
+    "ci:version": "lerna version patch --ignore-changes --yes --conventional-commits",
+    "ci:release": "lerna version patch --ignore-changes --yes --conventional-commits --create-release github",
     "ci:publish": "lerna publish from-package --yes"
   },
   "engines": {
@@ -21,15 +22,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lexmin0412/toolkit-js.git"
+    "url": "git+https://github.com/lexmin0412/toolkit-fe.git"
   },
   "keywords": [],
   "author": "lexmin0412 <zhangle_dev@outlook.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/lexmin0412/toolkit-js/issues"
+    "url": "https://github.com/lexmin0412/toolkit-fe/issues"
   },
-  "homepage": "https://github.com/lexmin0412/toolkit-js#readme",
+  "homepage": "https://github.com/lexmin0412/toolkit-fe#readme",
   "devDependencies": {
     "@changesets/cli": "^2.26.2",
     "lerna": "^8.0.0",
