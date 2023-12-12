@@ -1,32 +1,36 @@
 {
-	"name": "@toolkit-fe/coordinate-converter",
-	"version": "0.1.5",
-	"description": "百度/高德/腾讯经纬度互转工具",
-	"main": "./lib/index.js",
-	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1",
-		"build:commonjs": "rimraf lib && tsc --target es5 --outDir lib --module commonjs --declaration",
-		"build:es": "rimraf es && tsc --target es6 --outDir es --module es6",
-		"build": "npm run build:commonjs && npm run build:es",
-		"ts": "ts-node src/",
-		"prepublishOnly": "npm run build"
-	},
-	"keywords": [
-		"coordinate-converter"
-	],
-	"author": "lexmin0412 <zhangle_dev@outlook.com>",
-	"license": "ISC",
-	"devDependencies": {
-		"@types/node": "^20.10.0",
-		"rimraf": "^5.0.5",
-		"ts-node": "^10.9.1",
-		"typescript": "^5.3.2"
-	},
-	"files": [
-		"es",
-		"lib"
-	],
-	"types": "./lib/index.d.ts",
-	"jsnext:main": "./es/index.js",
-	"module": "./es/index.js"
+  "name": "@toolkit-fe/coordinate-converter",
+  "version": "0.1.5",
+  "description": "百度/高德/腾讯经纬度互转工具",
+  "main": "./lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:commonjs": "rimraf lib && tsc --target es5 --outDir lib --module commonjs --declaration",
+    "build:es": "rimraf es && tsc --target es6 --outDir es --module es6",
+    "build": "npm run build:commonjs && npm run build:es",
+    "ts": "ts-node src/",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "coordinate-converter"
+  ],
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "author": "lexmin0412 <zhangle_dev@outlook.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "rimraf": "^5.0.5",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.3.2"
+  },
+  "files": [
+    "es",
+    "lib"
+  ],
+  "types": "./lib/index.d.ts",
+  "jsnext:main": "./es/index.js",
+  "module": "./es/index.js"
 }
