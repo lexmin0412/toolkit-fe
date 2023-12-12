@@ -12,8 +12,8 @@
     "version-packages": "changeset version",
     "lerna:init": "lerna init",
     "new:pkg": "lerna create",
-    "ci:version": "lerna version patch --ignore-changes --yes --conventional-commits",
-    "ci:release": "lerna version patch --ignore-changes --yes --conventional-commits --create-release github",
+    "ci:version": "lerna version patch --yes --conventional-commits",
+    "ci:release": "lerna version patch --yes --conventional-commits --create-release github",
     "ci:publish": "lerna publish from-package --yes"
   },
   "engines": {
