@@ -1,5 +1,5 @@
 {
-	"name": "@lexmin0412/coordinate-converter",
+	"name": "@toolkit-fe/coordinate-converter",
 	"version": "0.1.3",
 	"description": "百度/高德/腾讯经纬度互转工具",
 	"main": "./lib/index.js",
