@@ -8,7 +8,6 @@
     "preinstall": "npx only-allow pnpm",
     "build": "pnpm --filter=@toolkit-fe/* run build",
     "clear": "rimraf 'packages/*/{lib,es,node_modules}' && rimraf node_modules",
-    "changeset": "changeset",
     "version-packages": "changeset version",
     "lerna:init": "lerna init",
     "new:pkg": "lerna create",
