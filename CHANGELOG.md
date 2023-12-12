@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.6](https://github.com/lexmin0412/toolkit-fe/compare/v0.1.5...v0.1.6) (2023-12-12)
+
+**Note:** Version bump only for package toolkit-frontend
+
+
+
+
+
 ## [0.1.5](https://github.com/lexmin0412/toolkit-fe/compare/v0.1.4...v0.1.5) (2023-12-12)
 
 **Note:** Version bump only for package toolkit-frontend
