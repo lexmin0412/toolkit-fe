@@ -34,5 +34,7 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
         run: |
+          # 取消上面对 .npmrc 的更改，防止 Lerna 发现本地有更改未提交而阻塞流程
+          git checkout -- .npmrc
           pnpm ci:version
           pnpm ci:publish
