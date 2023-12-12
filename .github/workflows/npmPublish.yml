@@ -37,5 +37,5 @@ jobs:
           # runner 没有真实用户，声明自己
           git config user.name lexmin0412
           git config user.email zhangle_dev@outlook.com
-          pnpm ci:version
+          pnpm ci:release
           pnpm ci:publish
