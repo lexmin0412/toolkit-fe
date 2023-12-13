@@ -13,7 +13,8 @@
     "new:pkg": "lerna create",
     "ci:version": "lerna version patch --yes --conventional-commits",
     "ci:release": "lerna version patch --yes --conventional-commits --create-release github",
-    "ci:publish": "lerna publish from-package --yes"
+    "ci:publish": "lerna publish --yes",
+    "ci:publish-pkg": "lerna publish from-package --yes"
   },
   "engines": {
     "node": ">=18.0.0 <19.0.0",
