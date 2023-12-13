@@ -1,6 +1,6 @@
 {
   "name": "@toolkit-fe/get-location",
-  "version": "0.1.10",
+  "version": "0.1.11",
   "description": "获取当前位置",
   "main": "./lib/index.js",
   "scripts": {
